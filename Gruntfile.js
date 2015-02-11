@@ -605,6 +605,12 @@ module.exports = function (grunt) {
     'usemin'
   ]);
 
+  grunt.registerTask('heroku', [
+    'compass:dist',
+    'autoprefixer',
+    'imagemin'
+  ]);
+
   grunt.registerTask('default', [
     'newer:jshint',
     'test',

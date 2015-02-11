@@ -6,3 +6,7 @@ before_script:
   - npm install -g bower grunt-cli
   - bower install
 services: mongodb
+deploy:
+  provider: heroku
+  api_key: 627b7c79-52c9-4cf7-afb4-284721e09d5b
+  app: polar-mountain-8721
