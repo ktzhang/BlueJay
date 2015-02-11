@@ -11,4 +11,4 @@ deploy:
   api_key: 627b7c79-52c9-4cf7-afb4-284721e09d5b
   app: polar-mountain-8721
 notifications:
-slack: cse112:Af6sr97byuQOXYkFlVLbgiyc
+  slack: cse112:Af6sr97byuQOXYkFlVLbgiyc
